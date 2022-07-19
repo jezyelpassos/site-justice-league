@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #010a11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 3%;
+    right: 3%;
+}
+
+.container{
+    width: 177vh;
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(img/03.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+
+.toda-lista{
+    position: absolute;
+    width: 200vh;
+    left: 23.5%;
+    top: 25%;
+}
+
+.toda-lista li{
+    list-style: none;
+}
+
+.toda-lista a{
+    color: #fff;
+    width: 50%;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13px); /*quanto mais pixel mais fica desfocado*/
+    -webkit-backdrop-filter: blur(13px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.toda-lista a:hover{
+    background-color: #3B7197;
+    color: #fff;
+}
+
