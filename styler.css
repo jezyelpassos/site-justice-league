@@ -9,20 +9,25 @@ a {
     color: #ffffff;
 }
 
+.container{
+    background: url(img/001.jpg) ;
+    background-size: cover; /* Caso a resolução do monitor de alguém seja maior que a imagem */ 
+    height: 100vh;
+}
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
-    height: 8vh;
-    background: #262626;
+    height: 10vh;
+    
 }
 
 .logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+    
+    height: 15vh;
+    width: 50vh;
 }
 
 .nav-list {
@@ -36,8 +41,14 @@ nav {
 }
 
 
-main {
-    background: url(img/01.jpg) no-repeat center center;
-    background-size: cover; /* Caso a resolução do monitor de alguém seja maior que a imagem */ 
-    height: 110vh;
-}
+
+/* .container{
+    width: 182.8vh;
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(img/01.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+} */

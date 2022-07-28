@@ -9,6 +9,11 @@ a {
     color: #05505a;
 }
 
+.container{
+    background: url(img/cyborg.jpg);
+    background-size: cover; /* Caso a resolução do monitor de alguém seja maior que a imagem */ 
+    height: 100vh;
+}
 
 nav {
     display: flex;
@@ -35,11 +40,4 @@ nav {
     text-decoration: none;
     letter-spacing: 3px;
     margin-left: 30px;
-}
-
-
-main {
-    background: url(img/cyborg.jpg) no-repeat center center;
-    background-size: cover; /* Caso a resolução do monitor de alguém seja maior que a imagem */ 
-    height: 100vh;
 }

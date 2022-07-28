@@ -9,24 +9,49 @@ body {
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #010a11;
+    color: #afc5d6;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 3%;
+    top: 15%;
     right: 3%;
 }
 
 .container{
-    width: 177vh;
+    width: 180vh;
     height: 100vh;
     overflow-x: hidden;
-    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(img/03.jpg);
+    background: url(img/02.jpg);
     background-size: cover;
     background-position: center;
     padding: 0 8%;
     position: relative;
+}
+
+nav li{
+    margin-top: 24px;
+    margin-right: 6vh;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+nav ul li a{
+    font-size: 25px;
+    color: #4bec0b;
+    text-decoration: none;
+}
+
+.btn{
+
+    border-radius: 5px;
+    display: block;
+    transition: 0.5s;
+}
+
+nav li a.btn:hover{
+    color: #000708;
+    background-color: #bbff00;
 }
 
 .toda-lista{
