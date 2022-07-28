@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #afc5d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15%;
+    right: 3%;
+}
+
+.container{
+    width: 180vh;
+    height: 100vh;
+    overflow-x: hidden;
+    background: url(img/02.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+
+nav li{
+    margin-top: 24px;
+    margin-right: 6vh;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+nav ul li a{
+    font-size: 25px;
+    color: #4bec0b;
+    text-decoration: none;
+}
+
+.btn{
+
+    border-radius: 5px;
+    display: block;
+    transition: 0.5s;
+}
+
+nav li a.btn:hover{
+    color: #000708;
+    background-color: #bbff00;
+}
+
+.toda-lista{
+    position: absolute;
+    width: 200vh;
+    left: 23.5%;
+    top: 25%;
+}
+
+.toda-lista li{
+    list-style: none;
+}
+
+.toda-lista a{
+    color: #fff;
+    width: 50%;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13px); /*quanto mais pixel mais fica desfocado*/
+    -webkit-backdrop-filter: blur(13px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.toda-lista a:hover{
+    background-color: #3B7197;
+    color: #fff;
+}
+
